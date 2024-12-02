@@ -13,7 +13,7 @@ public class PacManWorld extends World
     {    
        
         super(600, 450, 1);
-        Greenfoot.playSound("pacman_beginning.wav");
+        //Greenfoot.playSound("pacman_beginning.wav");
         // create walls and balls
         for(int i=0;i<100;i++)
         {
@@ -36,14 +36,14 @@ public class PacManWorld extends World
         //set transparencies
         teleportWall1.getImage().setTransparency(0);
         teleportWall2.getImage().setTransparency(0);
-        man.getUpperBound().getImage().setTransparency(0);
+        /*man.getUpperBound().getImage().setTransparency(0);
         man.getLowerBound().getImage().setTransparency(0);
         man.getLeftBound().getImage().setTransparency(0);
         man.getRightBound().getImage().setTransparency(0);
         man.getPacManCatcher().getImage().setTransparency(0);
-        
+        */
         // add pacman
-        addObject(man,117,200);
+        /*addObject(man,117,200);
         addObject(man.getUpperBound(),118,186);
         addObject(man.getLowerBound(),118,214);
         addObject(man.getRightBound(),132,200);
@@ -55,7 +55,9 @@ public class PacManWorld extends World
         addObject(man.getPinkGhost(),290,200);
         addObject(man.getBlueGhost(),313,200);
         addObject(man.getOrangeGhost(),336,200);
+        */
         //add score
+        /*
         addObject(man.getScore1(),68,75);
         addObject(man.getScore10(),52,75);
         addObject(man.getScore100(),36,75);
@@ -79,6 +81,7 @@ public class PacManWorld extends World
         addObject(man.getBigBall2(),113,280);
         addObject(man.getBigBall3(),486,78);
         addObject(man.getBigBall4(),486,280);
+        */
        
         //large horizontal walls
         addObject(walls.get(0),125,214);
