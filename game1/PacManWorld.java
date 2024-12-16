@@ -28,7 +28,7 @@ public class PacManWorld extends World
         teleportWall1.setRotation(-90);
         teleportWall2.setRotation(-90);
         addObject(teleportWall1,96,200);
-        addObject(teleportWall2,507,198);
+        addObject(teleportWall2,508,198);
         for(int i=0;i<300;i++)
         {
             balls.add(new Ball());
@@ -36,14 +36,14 @@ public class PacManWorld extends World
         //set transparencies
         teleportWall1.getImage().setTransparency(0);
         teleportWall2.getImage().setTransparency(0);
-        /*man.getUpperBound().getImage().setTransparency(0);
+        man.getUpperBound().getImage().setTransparency(0);
         man.getLowerBound().getImage().setTransparency(0);
         man.getLeftBound().getImage().setTransparency(0);
         man.getRightBound().getImage().setTransparency(0);
         man.getPacManCatcher().getImage().setTransparency(0);
-        */
+        
         // add pacman
-        /*addObject(man,117,200);
+        addObject(man,117,200);
         addObject(man.getUpperBound(),118,186);
         addObject(man.getLowerBound(),118,214);
         addObject(man.getRightBound(),132,200);
@@ -51,6 +51,7 @@ public class PacManWorld extends World
         addObject(man.getPacManCatcher(),117,200);
         
         //add ghosts
+        /*
         addObject(man.getRedGhost(),267,200);
         addObject(man.getPinkGhost(),290,200);
         addObject(man.getBlueGhost(),313,200);
