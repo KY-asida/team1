@@ -176,7 +176,7 @@ public class PacMan extends Actor
        {
            if(ballSoundTimer.getTime()==0)
            {
-               Greenfoot.playSound("pacman_chomp.wav");
+               
                ballTimerStarted=true;
             }
            gameWinCount++;
