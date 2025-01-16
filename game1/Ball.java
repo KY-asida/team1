@@ -1,19 +1,19 @@
-import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
+import greenfoot.*;  
 
-/**
- * Write a description of class ball here.
- * 
- * @author (your name) 
- * @version (a version number or a date)
- */
-public class ball extends kudomana
+
+public class ball extends Actor
 {
-
+    private int fallSpeed = Greenfoot.getRandomNumber(3) + 2;
     /**
-     * Constructor for objects of class ball.
-     * 
+     * Act - Make the ball fall and check for collision or missing.
      */
-    public ball()
+    public void act()
     {
+        setLocation(getX(), getY() + fallSpeed);
+
+        if (getY() >= getWorld().getHeight() - 1) {
+            ((kudomana)getWorld()).increaseMissedBalls();
+            getWorld().removeObject(this);
+        }
     }
 }
