@@ -1,26 +1,25 @@
 #Greenfoot project file
 class.Player.image=tux.png
-class.ball.image=ball.png
+class.ball.image=button-blue.png
 class.kudomana.image=space.jpg
-<<<<<<< HEAD
 dependency1.from=kudomana
-dependency1.to=ball
+dependency1.to=Player
 dependency1.type=UsesDependency
-dependency2.from=ball
-dependency2.to=kudomana
+dependency2.from=kudomana
+dependency2.to=ball
 dependency2.type=UsesDependency
-dependency3.from=Player
+dependency3.from=ball
 dependency3.to=kudomana
 dependency3.type=UsesDependency
-=======
-class.packman.image=pacman_120924.png
->>>>>>> 44b4cbca963f6d523b8d59cd1e573733ee2ee9ed
+dependency4.from=Player
+dependency4.to=kudomana
+dependency4.type=UsesDependency
 editor.fx.0.height=739
 editor.fx.0.width=816
 editor.fx.0.x=552
 editor.fx.0.y=100
 height=1047
-package.numDependencies=3
+package.numDependencies=4
 package.numTargets=3
 project.charset=UTF-8
 publish.hasSource=false
