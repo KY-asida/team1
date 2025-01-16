@@ -2,6 +2,7 @@
 class.Player.image=tux.png
 class.ball.image=ball.png
 class.kudomana.image=space.jpg
+<<<<<<< HEAD
 dependency1.from=kudomana
 dependency1.to=ball
 dependency1.type=UsesDependency
@@ -11,6 +12,9 @@ dependency2.type=UsesDependency
 dependency3.from=Player
 dependency3.to=kudomana
 dependency3.type=UsesDependency
+=======
+class.packman.image=pacman_120924.png
+>>>>>>> 44b4cbca963f6d523b8d59cd1e573733ee2ee9ed
 editor.fx.0.height=739
 editor.fx.0.width=816
 editor.fx.0.x=552
